@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 public class houseconstruction {
 	public static void main( String[] args )
     {
-		Logger logger1=LogManager.getLogger(interest.class);
+		Logger logger1=LogManager.getLogger(houseconstruction.class);
 
     	@SuppressWarnings("resource")
 		Scanner scanner=new Scanner(System.in);
